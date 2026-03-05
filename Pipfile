@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-telegram-bot = "==22.*"
+httpx = "*"
+python-dotenv = "==1.*"
+pydantic = "==2.*"
+pydantic-settings = "*"
+fastapi = ">=0.115,<1"
+uvicorn = {extras = ["standard"], version = "*"}
+sqlalchemy = "==2.*"
+mysql-connector-python = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "*"
+coverage = "*"
+ruff = "*"
+mypy = "*"
+respx = "*"
+
+[requires]
+python_version = "3.12"
